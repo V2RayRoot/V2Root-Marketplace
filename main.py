@@ -32,20 +32,6 @@ CONFIG_PATTERNS = {
 }
 PROXY_PATTERN = r"(?:https?:\/\/t\.me\/proxy\?|tg:\/\/proxy\?|https?:\/\/t\.me\/socks\?|tg:\/\/socks\?)[^\s\n]+"
 
-OPERATORS = {
-    "همراه اول": "HamrahAval",
-    "#همراه_اول": "HamrahAval",
-    "ایرانسل": "Irancell",
-    "#ایرانسل": "Irancell",
-    "مخابرات": "Makhaberat",
-    "#مخابرات": "Makhaberat",
-    "سامانتل": "Samantel",
-    "#سامانتل": "Samantel",
-    "سامان تل": "Samantel",
-    "#سامان_تل": "Samantel",
-    "شاتل": "Shatel",
-    "#شاتل": "Shatel",
-}
 
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
@@ -109,27 +95,21 @@ def extract_proxies_from_message(message):
     proxies += re.findall(PROXY_PATTERN, full_text)
     return proxies
 
-def detect_operator(text):
-    text_lower = text.lower()
-    for keyword, op in OPERATORS.items():
-        if keyword.lower() in text_lower:
-            return op
-    return None
+
 
 async def fetch_configs_and_proxies_from_channel(client, channel):
     configs = {k: [] for k in CONFIG_PATTERNS.keys()}
     config_timeline = []
-    operator_configs = defaultdict(list)
     proxies = []
     proxy_timeline = []
     try:
         channel_entity = await resolve_channel_target(client, channel)
     except (ChannelInvalidError, PeerIdInvalidError, ValueError) as e:
         logger.error(f"Channel {channel} does not exist or is inaccessible: {str(e)}")
-        return configs, config_timeline, operator_configs, proxies, proxy_timeline, False
+        return configs, config_timeline, proxies, proxy_timeline, False
     except Exception as e:
         logger.error(f"Channel {channel} could not be resolved: {str(e)}")
-        return configs, config_timeline, operator_configs, proxies, proxy_timeline, False
+        return configs, config_timeline, proxies, proxy_timeline, False
 
     try:
         message_count = 0
@@ -158,8 +138,6 @@ async def fetch_configs_and_proxies_from_channel(client, channel):
                                 length = entity.length
                                 full_text += "\n" + text[offset:offset+length]
 
-                operator = detect_operator(full_text)
-
                 for protocol, pattern in CONFIG_PATTERNS.items():
                     matches = list(set(re.findall(pattern, full_text)))
                     if matches:
@@ -170,14 +148,10 @@ async def fetch_configs_and_proxies_from_channel(client, channel):
                             config_timeline.append({
                                 "protocol": protocol.capitalize(),
                                 "config": config,
-                                "publisher": str(channel),
                                 "source": str(channel),
                                 "time": message.date.isoformat() if message.date else datetime.now().isoformat()
                             })
                         configs_found_count += len(matches)
-                        if operator:
-                            for config in matches:
-                                operator_configs[operator].append(config)
 
                 if message_date >= min_proxy_date:
                     proxy_links = extract_proxies_from_message(message)
@@ -194,11 +168,11 @@ async def fetch_configs_and_proxies_from_channel(client, channel):
         summary = f"[{channel}] ✔️ Processed {message_count} messages → Found {configs_found_count} configs + {len(proxies)} proxies"
         logger.info(summary)
         print(summary)
-        return configs, config_timeline, operator_configs, proxies, proxy_timeline, True
+        return configs, config_timeline, proxies, proxy_timeline, True
     except Exception as e:
         logger.error(f"Failed to fetch from {channel}: {str(e)}")
         print(f"❌ [{channel}] Error: {str(e)}")
-        return configs, config_timeline, operator_configs, proxies, proxy_timeline, False
+        return configs, config_timeline, proxies, proxy_timeline, False
 
 def save_configs(configs, protocol):
     output_file = os.path.join(OUTPUT_DIR, f"{protocol}.txt")
@@ -212,18 +186,7 @@ def save_configs(configs, protocol):
             f.write("No configs found for this protocol.\n")
             logger.info(f"No {protocol} configs found, wrote placeholder to {output_file}")
 
-def save_operator_configs(operator_configs):
-    for op, configs in operator_configs.items():
-        output_file = os.path.join(OUTPUT_DIR, f"{op}.txt")
-        logger.info(f"Saving operator configs to {output_file}")
-        with open(output_file, "w", encoding="utf-8") as f:
-            if configs:
-                for config in configs:
-                    f.write(config + "\n")
-                logger.info(f"Saved {len(configs)} configs for {op} to {output_file}")
-            else:
-                f.write(f"No configs found for {op}.\n")
-                logger.info(f"No configs found for {op}, wrote placeholder to {output_file}")
+
 
 def save_proxies(proxies):
     output_file = os.path.join(OUTPUT_DIR, f"proxies.txt")
@@ -378,7 +341,6 @@ async def main():
                 return
 
             all_configs = {k: [] for k in CONFIG_PATTERNS.keys()}
-            all_operator_configs = defaultdict(list)
             all_proxies = []
             channel_recent_configs = {}
             channel_recent_proxies = {}
@@ -388,7 +350,7 @@ async def main():
                 logger.info(f"Fetching configs/proxies from {channel}...")
                 print(f"\n📡 Fetching from {channel}...")
                 try:
-                    channel_configs, channel_config_timeline, channel_operator_configs, channel_proxies, channel_proxy_timeline, is_valid = await fetch_configs_and_proxies_from_channel(client, channel)
+                    channel_configs, channel_config_timeline, channel_proxies, channel_proxy_timeline, is_valid = await fetch_configs_and_proxies_from_channel(client, channel)
                     if not is_valid:
                         print(f"⚠️  [{channel}] Invalid or inaccessible")
                         invalid_channels.append(channel)
@@ -428,8 +390,6 @@ async def main():
 
                     for protocol in all_configs:
                         all_configs[protocol].extend(channel_configs[protocol])
-                    for op in channel_operator_configs:
-                        all_operator_configs[op].extend(channel_operator_configs[op])
 
                     all_proxies.extend(channel_proxies)
                     channel_recent_configs[channel] = channel_config_timeline
@@ -457,10 +417,6 @@ async def main():
                 all_configs[protocol] = list(set(all_configs[protocol]))
                 print(f"📊 Found {len(all_configs[protocol])} unique {protocol.upper()} configs")
                 logger.info(f"Found {len(all_configs[protocol])} unique {protocol} configs")
-            for op in all_operator_configs:
-                all_operator_configs[op] = list(set(all_operator_configs[op]))
-                print(f"📊 Found {len(all_operator_configs[op])} configs for {op}")
-                logger.info(f"Found {len(all_operator_configs[op])} unique configs for operator {op}")
 
             all_proxies = list(dict.fromkeys(all_proxies))
             print(f"📊 Found {len(all_proxies)} unique proxies")
@@ -468,7 +424,6 @@ async def main():
 
             for protocol in all_configs:
                 save_configs(all_configs[protocol], protocol)
-            save_operator_configs(all_operator_configs)
             save_proxies(all_proxies)
             save_invalid_channels(invalid_channels)
             save_channel_stats(channel_stats)
