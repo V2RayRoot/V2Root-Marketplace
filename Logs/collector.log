@@ -1,561 +1,617 @@
-2026-04-06 11:40:07,845 - DEBUG - Using selector: EpollSelector
-2026-04-06 11:40:07,846 - INFO - Starting config+proxy collection process
-2026-04-06 11:40:07,846 - INFO - Loaded 3 channels from telegram_channels.json
-2026-04-06 11:40:07,846 - INFO - Connecting to 149.154.167.91:443/TcpFull...
-2026-04-06 11:40:07,846 - DEBUG - Connection attempt 1...
-2026-04-06 11:40:08,000 - DEBUG - Connection success!
-2026-04-06 11:40:08,000 - DEBUG - Starting send loop
-2026-04-06 11:40:08,000 - DEBUG - Starting receive loop
-2026-04-06 11:40:08,000 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
-2026-04-06 11:40:08,000 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,000 - DEBUG - Assigned msg_id = 7625609671208535028 to InvokeWithLayerRequest (7f86a96bbd00)
-2026-04-06 11:40:08,000 - DEBUG - Encrypting 1 message(s) in 80 bytes for sending
-2026-04-06 11:40:08,000 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,001 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,001 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:08,155 - DEBUG - Handling bad salt for message 7625609671208535028
-2026-04-06 11:40:08,155 - DEBUG - 1 message(s) will be resent
-2026-04-06 11:40:08,155 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:08,155 - DEBUG - Assigned msg_id = 7625609671827872108 to InvokeWithLayerRequest (7f86a96bbd00)
-2026-04-06 11:40:08,155 - DEBUG - Encrypting 1 message(s) in 80 bytes for sending
-2026-04-06 11:40:08,155 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,155 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,155 - DEBUG - Assigned msg_id = 7625609671829201532 to MsgsAck (7f86a9a74610)
-2026-04-06 11:40:08,155 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:08,156 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,156 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,309 - DEBUG - Handling container
-2026-04-06 11:40:08,309 - DEBUG - Handling new session created
-2026-04-06 11:40:08,309 - DEBUG - Handling acknowledge for [7625609671827872108]
-2026-04-06 11:40:08,309 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:08,317 - DEBUG - Handling RPC result for message 7625609671827872108
-2026-04-06 11:40:08,317 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:08,317 - DEBUG - Assigned msg_id = 7625609672476538492 to GetUsersRequest (7f86a96bbf70)
-2026-04-06 11:40:08,317 - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
-2026-04-06 11:40:08,317 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,317 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,317 - DEBUG - Assigned msg_id = 7625609672477292848 to MsgsAck (7f86a96bbf40)
-2026-04-06 11:40:08,317 - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
-2026-04-06 11:40:08,318 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,318 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,490 - DEBUG - Handling RPC result for message 7625609672476538492
-2026-04-06 11:40:08,491 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:08,491 - DEBUG - Assigned msg_id = 7625609673170526336 to GetStateRequest (7f86a96bbf70)
-2026-04-06 11:40:08,491 - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
-2026-04-06 11:40:08,491 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,491 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,491 - DEBUG - Assigned msg_id = 7625609673171347452 to MsgsAck (7f86a96bbfd0)
-2026-04-06 11:40:08,491 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:08,491 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,491 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,650 - DEBUG - Handling RPC result for message 7625609673170526336
-2026-04-06 11:40:08,650 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:08,650 - DEBUG - Assigned msg_id = 7625609673808520148 to GetDifferenceRequest (7f86a96bbf70)
-2026-04-06 11:40:08,650 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:08,650 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,650 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,650 - DEBUG - Assigned msg_id = 7625609673809452844 to MsgsAck (7f86a96bbcd0)
-2026-04-06 11:40:08,650 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:08,651 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,651 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,812 - DEBUG - Handling RPC result for message 7625609673808520148
-2026-04-06 11:40:08,812 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:08,812 - DEBUG - Assigned msg_id = 7625609674456048800 to GetUsersRequest (7f86a9758070)
-2026-04-06 11:40:08,812 - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
-2026-04-06 11:40:08,812 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,812 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,812 - DEBUG - Assigned msg_id = 7625609674456811736 to MsgsAck (7f86a97582e0)
-2026-04-06 11:40:08,812 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:08,812 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,812 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,974 - DEBUG - Handling RPC result for message 7625609674456048800
-2026-04-06 11:40:08,974 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:08,974 - INFO - Fetching configs/proxies from @Alpha_V2ray_Iran...
-2026-04-06 11:40:08,974 - DEBUG - Assigned msg_id = 7625609675103885484 to ResolveUsernameRequest (7f86a97587c0)
-2026-04-06 11:40:08,974 - DEBUG - Encrypting 1 message(s) in 44 bytes for sending
-2026-04-06 11:40:08,974 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,974 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:08,974 - DEBUG - Assigned msg_id = 7625609675104619812 to MsgsAck (7f86a9758970)
-2026-04-06 11:40:08,974 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:08,974 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:08,974 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:09,141 - DEBUG - Handling RPC result for message 7625609675103885484
-2026-04-06 11:40:09,141 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:09,141 - DEBUG - Assigned msg_id = 7625609676067247820 to GetHistoryRequest (7f86a9758b20)
-2026-04-06 11:40:09,141 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
-2026-04-06 11:40:09,141 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:09,141 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:09,141 - DEBUG - Assigned msg_id = 7625609676068220568 to MsgsAck (7f86a9758a60)
-2026-04-06 11:40:09,141 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:09,142 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:09,142 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:09,786 - DEBUG - Handling RPC result for message 7625609676067247820
-2026-04-06 11:40:09,800 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009160
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009160
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 12 mtproto configs in message 1009157
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 24 proxies in message 1009157
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009154
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009154
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009153
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009153
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009150
-2026-04-06 11:40:09,803 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009150
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009148
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009148
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 10 mtproto configs in message 1009146
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 20 proxies in message 1009146
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 10 mtproto configs in message 1009142
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 20 proxies in message 1009142
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009140
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009140
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009139
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009139
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009125
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009125
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009124
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009124
-2026-04-06 11:40:09,804 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009122
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 6 proxies in message 1009122
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 5 mtproto configs in message 1009121
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 5 proxies in message 1009121
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009119
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 3 proxies in message 1009119
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 9 mtproto configs in message 1009118
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 10 proxies in message 1009118
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 5 mtproto configs in message 1009117
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 10 proxies in message 1009117
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009116
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009116
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 5 mtproto configs in message 1009111
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 5 proxies in message 1009111
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 2 vless configs in message 1009110
-2026-04-06 11:40:09,805 - INFO - [@Alpha_V2ray_Iran] Found 2 shadowsocks configs in message 1009110
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 6 mtproto configs in message 1009103
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 6 proxies in message 1009103
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009102
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 6 proxies in message 1009102
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009099
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009099
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 9 vless configs in message 1009095
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 9 shadowsocks configs in message 1009095
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 5 mtproto configs in message 1009094
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 5 proxies in message 1009094
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009089
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009089
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 6 mtproto configs in message 1009081
-2026-04-06 11:40:09,806 - INFO - [@Alpha_V2ray_Iran] Found 7 proxies in message 1009081
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009079
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009079
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009078
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009078
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009074
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009074
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009073
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009073
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009063
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009063
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009062
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009062
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009061
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009061
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009052
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 6 proxies in message 1009052
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009051
-2026-04-06 11:40:09,807 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009051
-2026-04-06 11:40:09,808 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009047
-2026-04-06 11:40:09,808 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009047
-2026-04-06 11:40:09,808 - INFO - [@Alpha_V2ray_Iran] Found 12 mtproto configs in message 1009045
-2026-04-06 11:40:09,808 - INFO - [@Alpha_V2ray_Iran] Found 24 proxies in message 1009045
-2026-04-06 11:40:09,808 - INFO - [@Alpha_V2ray_Iran] Found 7 mtproto configs in message 1009043
-2026-04-06 11:40:09,808 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009041
-2026-04-06 11:40:09,808 - INFO - [@Alpha_V2ray_Iran] Found 9 vless configs in message 1009040
-2026-04-06 11:40:09,808 - INFO - [@Alpha_V2ray_Iran] Found 9 shadowsocks configs in message 1009040
-2026-04-06 11:40:09,808 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009039
-2026-04-06 11:40:09,809 - DEBUG - Assigned msg_id = 7625609678737512068 to GetHistoryRequest (7f86a9758b20)
-2026-04-06 11:40:09,809 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
-2026-04-06 11:40:09,809 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:09,809 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:09,809 - DEBUG - Assigned msg_id = 7625609678738587812 to MsgsAck (7f86a9648130)
-2026-04-06 11:40:09,809 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:09,809 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:09,809 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:10,202 - DEBUG - Handling RPC result for message 7625609678737512068
-2026-04-06 11:40:10,210 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:10,211 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009036
-2026-04-06 11:40:10,211 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009034
-2026-04-06 11:40:10,211 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009029
-2026-04-06 11:40:10,211 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009027
-2026-04-06 11:40:10,211 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009027
-2026-04-06 11:40:10,211 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009026
-2026-04-06 11:40:10,211 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009026
-2026-04-06 11:40:10,211 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009024
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009020
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009019
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 12 vless configs in message 1009018
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 12 shadowsocks configs in message 1009018
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009017
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009015
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 9 mtproto configs in message 1009015
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009013
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009013
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009011
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009008
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009008
-2026-04-06 11:40:10,212 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009007
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009005
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009005
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009003
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009003
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 4 vless configs in message 1009001
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 4 shadowsocks configs in message 1009001
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009000
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1008999
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1008995
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1008992
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1008991
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1008988
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1008985
-2026-04-06 11:40:10,213 - INFO - [@Alpha_V2ray_Iran] Found 10 mtproto configs in message 1008984
-2026-04-06 11:40:10,214 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1008983
-2026-04-06 11:40:10,214 - INFO - [@Alpha_V2ray_Iran] ✔️ Processed 150 messages → Found 298 configs + 209 proxies
-2026-04-06 11:40:10,214 - INFO - Fetching configs/proxies from @Farah_VPN...
-2026-04-06 11:40:10,214 - DEBUG - Assigned msg_id = 7625609680653442460 to ResolveUsernameRequest (7f86a9758d60)
-2026-04-06 11:40:10,214 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:10,214 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:10,214 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:10,214 - DEBUG - Assigned msg_id = 7625609680654458120 to MsgsAck (7f86a9650910)
-2026-04-06 11:40:10,214 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:10,214 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:10,214 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:10,378 - DEBUG - Handling RPC result for message 7625609680653442460
-2026-04-06 11:40:10,379 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:10,379 - DEBUG - Assigned msg_id = 7625609681312809068 to GetHistoryRequest (7f86a9650a30)
-2026-04-06 11:40:10,379 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
-2026-04-06 11:40:10,379 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:10,379 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:10,379 - DEBUG - Assigned msg_id = 7625609681313666420 to MsgsAck (7f86a96507f0)
-2026-04-06 11:40:10,379 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:10,379 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:10,379 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:10,626 - DEBUG - Handling RPC result for message 7625609681312809068
-2026-04-06 11:40:10,629 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134429
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134429
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134428
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134428
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134427
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134427
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134426
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134426
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134425
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134425
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134424
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134424
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134423
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134423
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134422
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134422
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134421
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134421
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134420
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134420
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134419
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134419
-2026-04-06 11:40:10,630 - INFO - [@Farah_VPN] Found 1 vless configs in message 134418
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134418
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134417
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134417
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134416
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134416
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134415
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134415
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134414
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134414
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134413
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134413
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134412
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134412
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134411
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134411
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134410
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134410
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134409
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134409
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134408
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134408
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134407
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134407
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134406
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134406
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134405
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134405
-2026-04-06 11:40:10,631 - INFO - [@Farah_VPN] Found 1 vless configs in message 134404
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134404
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134403
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134403
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134402
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134402
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134401
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134401
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134400
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134400
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134399
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134399
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134398
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134398
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134397
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134397
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134396
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134396
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134395
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134395
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134394
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134394
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 vless configs in message 134393
-2026-04-06 11:40:10,632 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134393
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 vless configs in message 134392
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134392
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 vless configs in message 134391
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134391
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 vless configs in message 134390
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134390
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134389
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134388
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134387
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134386
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134385
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134384
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134383
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 vless configs in message 134382
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134382
-2026-04-06 11:40:10,633 - INFO - [@Farah_VPN] Found 1 vless configs in message 134381
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134381
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 vless configs in message 134380
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134380
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134379
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134378
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134377
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134376
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134376
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134375
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134375
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134374
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134373
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 vless configs in message 134372
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134372
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 vless configs in message 134371
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134371
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134370
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134369
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134369
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134368
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 vless configs in message 134367
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134367
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 vless configs in message 134366
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134366
-2026-04-06 11:40:10,634 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134365
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134365
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134364
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134364
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134363
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134363
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134362
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134362
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134361
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134361
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134360
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134359
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134358
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134358
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134357
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134357
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134356
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134355
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134354
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134354
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134353
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134353
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134352
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134352
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134351
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134351
-2026-04-06 11:40:10,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134350
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134350
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134349
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134349
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134348
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134348
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134347
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134346
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134345
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134344
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134344
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134343
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134343
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134342
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134341
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134341
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134340
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134340
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134339
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134339
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134338
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134337
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134336
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134336
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134335
-2026-04-06 11:40:10,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134334
-2026-04-06 11:40:10,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134334
-2026-04-06 11:40:10,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134333
-2026-04-06 11:40:10,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134332
-2026-04-06 11:40:10,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134332
-2026-04-06 11:40:10,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134331
-2026-04-06 11:40:10,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134331
-2026-04-06 11:40:10,637 - INFO - [@Farah_VPN] Found 1 trojan configs in message 134330
-2026-04-06 11:40:10,637 - DEBUG - Assigned msg_id = 7625609682345463828 to GetHistoryRequest (7f86a9650a30)
-2026-04-06 11:40:10,637 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
-2026-04-06 11:40:10,637 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:10,637 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:10,637 - DEBUG - Assigned msg_id = 7625609682346497612 to MsgsAck (7f86a95b0be0)
-2026-04-06 11:40:10,637 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:10,637 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:10,637 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:10,829 - DEBUG - Handling RPC result for message 7625609682345463828
-2026-04-06 11:40:10,830 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 vless configs in message 134329
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134329
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 vless configs in message 134328
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134328
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 vless configs in message 134327
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134327
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 vless configs in message 134326
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134326
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 vless configs in message 134325
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134325
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134324
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 vless configs in message 134323
-2026-04-06 11:40:10,831 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134323
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 trojan configs in message 134322
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 vless configs in message 134321
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134321
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134320
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134319
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 vless configs in message 134318
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134318
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 vless configs in message 134317
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134317
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134316
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134315
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134314
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134313
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134312
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134311
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134310
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134309
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134308
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 vless configs in message 134307
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134307
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134306
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134305
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134304
-2026-04-06 11:40:10,832 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134303
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134302
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134301
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134300
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134299
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134298
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134297
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134296
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134295
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134295
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134294
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134294
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134293
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134293
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134292
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134291
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134290
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134289
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134288
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134287
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134286
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134285
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134284
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134283
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134282
-2026-04-06 11:40:10,833 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134281
-2026-04-06 11:40:10,834 - INFO - [@Farah_VPN] Found 1 trojan configs in message 134280
-2026-04-06 11:40:10,834 - INFO - [@Farah_VPN] ✔️ Processed 150 messages → Found 236 configs + 0 proxies
-2026-04-06 11:40:10,834 - INFO - Fetching configs/proxies from @vaddress...
-2026-04-06 11:40:10,834 - DEBUG - Assigned msg_id = 7625609683132815436 to ResolveUsernameRequest (7f86a9641150)
-2026-04-06 11:40:10,834 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:10,834 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:10,834 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:10,834 - DEBUG - Assigned msg_id = 7625609683133770064 to MsgsAck (7f86a975b580)
-2026-04-06 11:40:10,834 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:10,834 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:10,834 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:11,001 - DEBUG - Handling RPC result for message 7625609683132815436
-2026-04-06 11:40:11,001 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:11,001 - DEBUG - Assigned msg_id = 7625609684097844796 to GetHistoryRequest (7f86a975b8e0)
-2026-04-06 11:40:11,001 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
-2026-04-06 11:40:11,002 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:11,002 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:11,002 - DEBUG - Assigned msg_id = 7625609684098895748 to MsgsAck (7f86a97587c0)
-2026-04-06 11:40:11,002 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:11,002 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:11,002 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:11,236 - DEBUG - Handling RPC result for message 7625609684097844796
-2026-04-06 11:40:11,242 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:11,245 - DEBUG - Assigned msg_id = 7625609685070845324 to GetHistoryRequest (7f86a975b8e0)
-2026-04-06 11:40:11,245 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
-2026-04-06 11:40:11,245 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:11,245 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:11,245 - DEBUG - Assigned msg_id = 7625609685071964940 to MsgsAck (7f86a95b0ee0)
-2026-04-06 11:40:11,245 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2026-04-06 11:40:11,245 - DEBUG - Encrypted messages put in a queue to be sent
-2026-04-06 11:40:11,245 - DEBUG - Waiting for messages to send...
-2026-04-06 11:40:11,454 - DEBUG - Handling RPC result for message 7625609685070845324
-2026-04-06 11:40:11,457 - DEBUG - Receiving items from the network...
-2026-04-06 11:40:11,458 - INFO - [@vaddress] Found 3 mtproto configs in message 8905
-2026-04-06 11:40:11,458 - INFO - [@vaddress] Found 2 vless configs in message 8899
-2026-04-06 11:40:11,458 - INFO - [@vaddress] Found 2 shadowsocks configs in message 8899
-2026-04-06 11:40:11,458 - INFO - [@vaddress] Found 3 vmess configs in message 8898
-2026-04-06 11:40:11,458 - INFO - [@vaddress] Found 3 shadowsocks configs in message 8898
-2026-04-06 11:40:11,458 - INFO - [@vaddress] Found 11 mtproto configs in message 8897
-2026-04-06 11:40:11,459 - INFO - [@vaddress] ✔️ Processed 150 messages → Found 24 configs + 0 proxies
-2026-04-06 11:40:11,459 - INFO - Found 111 unique vless configs
-2026-04-06 11:40:11,459 - INFO - Found 10 unique vmess configs
-2026-04-06 11:40:11,459 - INFO - Found 180 unique shadowsocks configs
-2026-04-06 11:40:11,459 - INFO - Found 3 unique trojan configs
-2026-04-06 11:40:11,459 - INFO - Found 6 unique socks configs
-2026-04-06 11:40:11,459 - INFO - Found 0 unique http configs
-2026-04-06 11:40:11,459 - INFO - Found 130 unique mtproto configs
-2026-04-06 11:40:11,459 - INFO - Saving configs to Config/vless.txt
-2026-04-06 11:40:11,459 - INFO - Saved 111 vless configs to Config/vless.txt
-2026-04-06 11:40:11,459 - INFO - Saving configs to Config/vmess.txt
-2026-04-06 11:40:11,459 - INFO - Saved 10 vmess configs to Config/vmess.txt
-2026-04-06 11:40:11,459 - INFO - Saving configs to Config/shadowsocks.txt
-2026-04-06 11:40:11,460 - INFO - Saved 180 shadowsocks configs to Config/shadowsocks.txt
-2026-04-06 11:40:11,460 - INFO - Saving configs to Config/trojan.txt
-2026-04-06 11:40:11,460 - INFO - Saved 3 trojan configs to Config/trojan.txt
-2026-04-06 11:40:11,460 - INFO - Saving configs to Config/socks.txt
-2026-04-06 11:40:11,460 - INFO - Saved 6 socks configs to Config/socks.txt
-2026-04-06 11:40:11,460 - INFO - Saving configs to Config/http.txt
-2026-04-06 11:40:11,460 - INFO - No http configs found, wrote placeholder to Config/http.txt
-2026-04-06 11:40:11,460 - INFO - Saving configs to Config/mtproto.txt
-2026-04-06 11:40:11,460 - INFO - Saved 130 mtproto configs to Config/mtproto.txt
-2026-04-06 11:40:11,460 - INFO - Saving proxies to Config/proxies.txt
-2026-04-06 11:40:11,460 - INFO - Saved 90 proxies to Config/proxies.txt
-2026-04-06 11:40:11,460 - INFO - Saving invalid channels to Logs/invalid_channels.txt
-2026-04-06 11:40:11,460 - INFO - No invalid channels found, wrote placeholder to Logs/invalid_channels.txt
-2026-04-06 11:40:11,460 - INFO - Saving channel stats to Logs/channel_stats.json
-2026-04-06 11:40:11,461 - INFO - Saved channel stats to Logs/channel_stats.json
-2026-04-06 11:40:11,464 - INFO - Saved 558 marketplace configs to Config/marketplace_data.json
-2026-04-06 11:40:11,464 - INFO - Updated telegram_channels.json with 3 channels
-2026-04-06 11:40:11,464 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
-2026-04-06 11:40:11,464 - DEBUG - Closing current connection...
-2026-04-06 11:40:11,465 - DEBUG - Cancelling 0 pending message(s)...
-2026-04-06 11:40:11,465 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
-2026-04-06 11:40:11,465 - INFO - Config+proxy collection process completed
+2026-04-06 12:42:37,594 - DEBUG - Using selector: EpollSelector
+2026-04-06 12:42:37,594 - INFO - Starting config+proxy collection process
+2026-04-06 12:42:37,594 - INFO - Loaded 3 channels from telegram_channels.json
+2026-04-06 12:42:37,595 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2026-04-06 12:42:37,595 - DEBUG - Connection attempt 1...
+2026-04-06 12:42:37,686 - DEBUG - Connection success!
+2026-04-06 12:42:37,686 - DEBUG - Starting send loop
+2026-04-06 12:42:37,686 - DEBUG - Starting receive loop
+2026-04-06 12:42:37,686 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2026-04-06 12:42:37,687 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:37,687 - DEBUG - Assigned msg_id = 7625625775786677204 to InvokeWithLayerRequest (7fc1a0f8fd00)
+2026-04-06 12:42:37,687 - DEBUG - Encrypting 1 message(s) in 80 bytes for sending
+2026-04-06 12:42:37,687 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:37,687 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:37,687 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:37,780 - DEBUG - Handling bad salt for message 7625625775786677204
+2026-04-06 12:42:37,780 - DEBUG - 1 message(s) will be resent
+2026-04-06 12:42:37,780 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:37,780 - DEBUG - Assigned msg_id = 7625625776159798468 to InvokeWithLayerRequest (7fc1a0f8fd00)
+2026-04-06 12:42:37,780 - DEBUG - Encrypting 1 message(s) in 80 bytes for sending
+2026-04-06 12:42:37,780 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:37,780 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:37,780 - DEBUG - Assigned msg_id = 7625625776161081160 to MsgsAck (7fc1a137c610)
+2026-04-06 12:42:37,780 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:37,780 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:37,781 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:37,872 - DEBUG - Handling container
+2026-04-06 12:42:37,873 - DEBUG - Handling new session created
+2026-04-06 12:42:37,873 - DEBUG - Handling acknowledge for [7625625776159798468]
+2026-04-06 12:42:37,873 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:37,884 - DEBUG - Handling RPC result for message 7625625776159798468
+2026-04-06 12:42:37,885 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:37,885 - DEBUG - Assigned msg_id = 7625625776579316936 to GetUsersRequest (7fc1a0f8ff70)
+2026-04-06 12:42:37,885 - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2026-04-06 12:42:37,885 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:37,885 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:37,885 - DEBUG - Assigned msg_id = 7625625776580122792 to MsgsAck (7fc1a0f8ff40)
+2026-04-06 12:42:37,885 - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2026-04-06 12:42:37,885 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:37,885 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:37,995 - DEBUG - Handling RPC result for message 7625625776579316936
+2026-04-06 12:42:37,995 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:37,996 - DEBUG - Assigned msg_id = 7625625777022697292 to GetStateRequest (7fc1a0f8ff70)
+2026-04-06 12:42:37,996 - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2026-04-06 12:42:37,996 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:37,996 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:37,996 - DEBUG - Assigned msg_id = 7625625777023828352 to MsgsAck (7fc1a0f8ffd0)
+2026-04-06 12:42:37,996 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:37,996 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:37,996 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,092 - DEBUG - Handling RPC result for message 7625625777022697292
+2026-04-06 12:42:38,092 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:38,093 - DEBUG - Assigned msg_id = 7625625777705538240 to GetDifferenceRequest (7fc1a0f8ff70)
+2026-04-06 12:42:38,093 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:38,093 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,093 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,093 - DEBUG - Assigned msg_id = 7625625777706694092 to MsgsAck (7fc1a0f8fcd0)
+2026-04-06 12:42:38,093 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:38,093 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,093 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,202 - DEBUG - Handling RPC result for message 7625625777705538240
+2026-04-06 12:42:38,202 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:38,202 - DEBUG - Assigned msg_id = 7625625778144900764 to GetUsersRequest (7fc1a102c100)
+2026-04-06 12:42:38,203 - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2026-04-06 12:42:38,203 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,203 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,203 - DEBUG - Assigned msg_id = 7625625778145832504 to MsgsAck (7fc1a102c2b0)
+2026-04-06 12:42:38,203 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:38,203 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,203 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,301 - DEBUG - Handling RPC result for message 7625625778144900764
+2026-04-06 12:42:38,301 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:38,301 - INFO - Fetching configs/proxies from @Alpha_V2ray_Iran...
+2026-04-06 12:42:38,302 - DEBUG - Assigned msg_id = 7625625778541166748 to ResolveUsernameRequest (7fc1a102c790)
+2026-04-06 12:42:38,302 - DEBUG - Encrypting 1 message(s) in 44 bytes for sending
+2026-04-06 12:42:38,302 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,302 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,302 - DEBUG - Assigned msg_id = 7625625778542086092 to MsgsAck (7fc1a102c940)
+2026-04-06 12:42:38,302 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:38,302 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,302 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,406 - DEBUG - Handling RPC result for message 7625625778541166748
+2026-04-06 12:42:38,407 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:38,407 - DEBUG - Assigned msg_id = 7625625778963180984 to GetHistoryRequest (7fc1a102caf0)
+2026-04-06 12:42:38,407 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2026-04-06 12:42:38,407 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,407 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,407 - DEBUG - Assigned msg_id = 7625625778964342560 to MsgsAck (7fc1a102ca30)
+2026-04-06 12:42:38,407 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:38,408 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,408 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,855 - DEBUG - Handling RPC result for message 7625625778963180984
+2026-04-06 12:42:38,870 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:38,873 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009164
+2026-04-06 12:42:38,873 - INFO - [@Alpha_V2ray_Iran] Found 3 proxies in message 1009164
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009160
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009160
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 12 mtproto configs in message 1009157
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 24 proxies in message 1009157
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009154
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009154
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009153
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009153
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009150
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009150
+2026-04-06 12:42:38,874 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009148
+2026-04-06 12:42:38,875 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009148
+2026-04-06 12:42:38,875 - INFO - [@Alpha_V2ray_Iran] Found 10 mtproto configs in message 1009146
+2026-04-06 12:42:38,875 - INFO - [@Alpha_V2ray_Iran] Found 20 proxies in message 1009146
+2026-04-06 12:42:38,875 - INFO - [@Alpha_V2ray_Iran] Found 10 mtproto configs in message 1009142
+2026-04-06 12:42:38,875 - INFO - [@Alpha_V2ray_Iran] Found 20 proxies in message 1009142
+2026-04-06 12:42:38,875 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009140
+2026-04-06 12:42:38,875 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009140
+2026-04-06 12:42:38,875 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009139
+2026-04-06 12:42:38,875 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009139
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009125
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009125
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009124
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009124
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009122
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 6 proxies in message 1009122
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 5 mtproto configs in message 1009121
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 5 proxies in message 1009121
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009119
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 3 proxies in message 1009119
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 9 mtproto configs in message 1009118
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 10 proxies in message 1009118
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 5 mtproto configs in message 1009117
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 10 proxies in message 1009117
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009116
+2026-04-06 12:42:38,876 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009116
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 5 mtproto configs in message 1009111
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 5 proxies in message 1009111
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 2 vless configs in message 1009110
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 2 shadowsocks configs in message 1009110
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 6 mtproto configs in message 1009103
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 6 proxies in message 1009103
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009102
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 6 proxies in message 1009102
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009099
+2026-04-06 12:42:38,877 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009099
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 9 vless configs in message 1009095
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 9 shadowsocks configs in message 1009095
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 5 mtproto configs in message 1009094
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 5 proxies in message 1009094
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009089
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009089
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 6 mtproto configs in message 1009081
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 7 proxies in message 1009081
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009079
+2026-04-06 12:42:38,878 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009079
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009078
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009078
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009074
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009074
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009073
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 4 proxies in message 1009073
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009063
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009063
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009062
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009062
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009061
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009061
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009052
+2026-04-06 12:42:38,879 - INFO - [@Alpha_V2ray_Iran] Found 6 proxies in message 1009052
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009051
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 1 proxies in message 1009051
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009047
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 2 proxies in message 1009047
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 12 mtproto configs in message 1009045
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 24 proxies in message 1009045
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 7 mtproto configs in message 1009043
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009041
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 9 vless configs in message 1009040
+2026-04-06 12:42:38,880 - INFO - [@Alpha_V2ray_Iran] Found 9 shadowsocks configs in message 1009040
+2026-04-06 12:42:38,881 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009039
+2026-04-06 12:42:38,881 - DEBUG - Assigned msg_id = 7625625780859182800 to GetHistoryRequest (7fc1a102caf0)
+2026-04-06 12:42:38,881 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2026-04-06 12:42:38,881 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,881 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:38,881 - DEBUG - Assigned msg_id = 7625625780860554184 to MsgsAck (7fc1a0f1c1f0)
+2026-04-06 12:42:38,881 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:38,882 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:38,882 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,191 - DEBUG - Handling RPC result for message 7625625780859182800
+2026-04-06 12:42:39,199 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:39,200 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009036
+2026-04-06 12:42:39,200 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009034
+2026-04-06 12:42:39,200 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009029
+2026-04-06 12:42:39,200 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009027
+2026-04-06 12:42:39,200 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009027
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009026
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009026
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009024
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1009020
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1009019
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 12 vless configs in message 1009018
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 12 shadowsocks configs in message 1009018
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009017
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009015
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 9 mtproto configs in message 1009015
+2026-04-06 12:42:39,201 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009013
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009013
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1009011
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009008
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009008
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 1 socks configs in message 1009007
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009005
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009005
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 1 vless configs in message 1009003
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 1 shadowsocks configs in message 1009003
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 4 vless configs in message 1009001
+2026-04-06 12:42:39,202 - INFO - [@Alpha_V2ray_Iran] Found 4 shadowsocks configs in message 1009001
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] Found 3 mtproto configs in message 1009000
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1008999
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1008995
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1008992
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] Found 2 mtproto configs in message 1008991
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] Found 1 mtproto configs in message 1008988
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1008985
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] Found 10 mtproto configs in message 1008984
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] Found 4 mtproto configs in message 1008983
+2026-04-06 12:42:39,203 - INFO - [@Alpha_V2ray_Iran] ✔️ Processed 150 messages → Found 301 configs + 212 proxies
+2026-04-06 12:42:39,203 - INFO - Fetching configs/proxies from @Farah_VPN...
+2026-04-06 12:42:39,204 - DEBUG - Assigned msg_id = 7625625782444886296 to ResolveUsernameRequest (7fc1a102cd30)
+2026-04-06 12:42:39,204 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:39,204 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,204 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,204 - DEBUG - Assigned msg_id = 7625625782445900052 to MsgsAck (7fc1a0e58d60)
+2026-04-06 12:42:39,204 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:39,204 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,204 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,303 - DEBUG - Handling RPC result for message 7625625782444886296
+2026-04-06 12:42:39,304 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:39,304 - DEBUG - Assigned msg_id = 7625625782844853488 to GetHistoryRequest (7fc1a0e58ee0)
+2026-04-06 12:42:39,304 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2026-04-06 12:42:39,304 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,304 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,304 - DEBUG - Assigned msg_id = 7625625782845834820 to MsgsAck (7fc1a0e58f10)
+2026-04-06 12:42:39,304 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:39,304 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,304 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,470 - DEBUG - Handling RPC result for message 7625625782844853488
+2026-04-06 12:42:39,473 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 vless configs in message 134624
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134624
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 vless configs in message 134623
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134623
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 vless configs in message 134622
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134622
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 vless configs in message 134621
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134621
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 vless configs in message 134620
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134620
+2026-04-06 12:42:39,474 - INFO - [@Farah_VPN] Found 1 vless configs in message 134619
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134619
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 vless configs in message 134618
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134618
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134617
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 vless configs in message 134616
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134616
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 vless configs in message 134615
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134615
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134614
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 vless configs in message 134613
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134613
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 vless configs in message 134612
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134612
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 vless configs in message 134611
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134611
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 vless configs in message 134610
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134610
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 vless configs in message 134609
+2026-04-06 12:42:39,475 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134609
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134608
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134608
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134607
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134607
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134606
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134606
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134605
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134604
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134604
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134603
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134603
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134602
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134602
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134601
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134601
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134600
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134600
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134599
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134599
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 vless configs in message 134598
+2026-04-06 12:42:39,476 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134598
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 vless configs in message 134597
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134597
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 vless configs in message 134596
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134596
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 vless configs in message 134595
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134595
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 vless configs in message 134594
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134594
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 vless configs in message 134593
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134593
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 vless configs in message 134592
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134592
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 vless configs in message 134591
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134591
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 vless configs in message 134590
+2026-04-06 12:42:39,477 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134590
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 vless configs in message 134589
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134589
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 vless configs in message 134588
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134588
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 vless configs in message 134587
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134587
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 vless configs in message 134586
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134586
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 vless configs in message 134585
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134585
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 vless configs in message 134584
+2026-04-06 12:42:39,478 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134584
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 vless configs in message 134583
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134583
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 vless configs in message 134582
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134582
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 vless configs in message 134581
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134581
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 vless configs in message 134580
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134580
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 vless configs in message 134579
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134579
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 vless configs in message 134578
+2026-04-06 12:42:39,479 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134578
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 vless configs in message 134577
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134577
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 vless configs in message 134576
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134576
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 vless configs in message 134575
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134575
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 vless configs in message 134574
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134574
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134573
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134572
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 vless configs in message 134571
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134571
+2026-04-06 12:42:39,480 - INFO - [@Farah_VPN] Found 1 vless configs in message 134570
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134570
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134569
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134569
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 trojan configs in message 134568
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 trojan configs in message 134567
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 vless configs in message 134566
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134566
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 vless configs in message 134565
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134565
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134564
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134563
+2026-04-06 12:42:39,481 - INFO - [@Farah_VPN] Found 1 vless configs in message 134562
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134562
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 vless configs in message 134561
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134561
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 vless configs in message 134560
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134560
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 vless configs in message 134559
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134559
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 vless configs in message 134558
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134558
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 trojan configs in message 134557
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 vless configs in message 134556
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134556
+2026-04-06 12:42:39,482 - INFO - [@Farah_VPN] Found 1 vless configs in message 134555
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134555
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 vless configs in message 134554
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134554
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 vless configs in message 134553
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134553
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 vless configs in message 134552
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134552
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 vless configs in message 134551
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134551
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 vless configs in message 134550
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134550
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 vless configs in message 134549
+2026-04-06 12:42:39,483 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134549
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 vless configs in message 134548
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134548
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 vless configs in message 134547
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134547
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 vless configs in message 134546
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134546
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 vless configs in message 134545
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134545
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 vless configs in message 134544
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134544
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 vless configs in message 134543
+2026-04-06 12:42:39,484 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134543
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 vless configs in message 134542
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134542
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 vless configs in message 134541
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134541
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 vless configs in message 134540
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134540
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 vless configs in message 134539
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134539
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 vless configs in message 134538
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134538
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 vless configs in message 134537
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134537
+2026-04-06 12:42:39,485 - INFO - [@Farah_VPN] Found 1 vless configs in message 134536
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134536
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 vless configs in message 134535
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134535
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 vless configs in message 134534
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134534
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 vless configs in message 134533
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134533
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 vless configs in message 134532
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134532
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 vless configs in message 134531
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134531
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 vless configs in message 134530
+2026-04-06 12:42:39,486 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134530
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 vless configs in message 134529
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134529
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134528
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134528
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 vless configs in message 134527
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134527
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 vless configs in message 134526
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134526
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 vless configs in message 134525
+2026-04-06 12:42:39,487 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134525
+2026-04-06 12:42:39,488 - DEBUG - Assigned msg_id = 7625625783580508320 to GetHistoryRequest (7fc1a0e58ee0)
+2026-04-06 12:42:39,488 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2026-04-06 12:42:39,488 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,488 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,488 - DEBUG - Assigned msg_id = 7625625783582352724 to MsgsAck (7fc1a0f246d0)
+2026-04-06 12:42:39,488 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:39,488 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,488 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,633 - DEBUG - Handling RPC result for message 7625625783580508320
+2026-04-06 12:42:39,635 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:39,635 - INFO - [@Farah_VPN] Found 1 vless configs in message 134524
+2026-04-06 12:42:39,635 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134524
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134523
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134523
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134522
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134522
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134521
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134521
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134520
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134520
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134519
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134519
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134518
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134518
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134517
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134517
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134516
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134516
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vless configs in message 134515
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134515
+2026-04-06 12:42:39,636 - INFO - [@Farah_VPN] Found 1 vmess configs in message 134514
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134514
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134513
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134513
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134512
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134512
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134511
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134511
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134510
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134510
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134509
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134509
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134508
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134508
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134507
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134507
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134506
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134506
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134505
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134505
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 vless configs in message 134504
+2026-04-06 12:42:39,637 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134504
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134503
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134503
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134502
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134502
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134501
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134501
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134500
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134500
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134499
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134499
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134498
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134498
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134497
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134497
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134496
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134496
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134495
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134495
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134494
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134494
+2026-04-06 12:42:39,638 - INFO - [@Farah_VPN] Found 1 vless configs in message 134493
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134493
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 vless configs in message 134492
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134492
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 vless configs in message 134491
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134491
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 vless configs in message 134490
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134490
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 vless configs in message 134489
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134489
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 vless configs in message 134488
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134488
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 vless configs in message 134487
+2026-04-06 12:42:39,639 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134487
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 vless configs in message 134486
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134486
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 vless configs in message 134485
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134485
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 vless configs in message 134484
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134484
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 vless configs in message 134483
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134483
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 vless configs in message 134482
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134482
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 vless configs in message 134481
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134481
+2026-04-06 12:42:39,640 - INFO - [@Farah_VPN] Found 1 vless configs in message 134480
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134480
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 vless configs in message 134479
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134479
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 vless configs in message 134478
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134478
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 vless configs in message 134477
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134477
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 vless configs in message 134476
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134476
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 vless configs in message 134475
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] Found 1 shadowsocks configs in message 134475
+2026-04-06 12:42:39,641 - INFO - [@Farah_VPN] ✔️ Processed 150 messages → Found 290 configs + 0 proxies
+2026-04-06 12:42:39,641 - INFO - Fetching configs/proxies from @vaddress...
+2026-04-06 12:42:39,642 - DEBUG - Assigned msg_id = 7625625784196927156 to ResolveUsernameRequest (7fc1a102f6d0)
+2026-04-06 12:42:39,642 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:39,642 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,642 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,642 - DEBUG - Assigned msg_id = 7625625784198647588 to MsgsAck (7fc1a0e8b580)
+2026-04-06 12:42:39,642 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:39,642 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,642 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,743 - DEBUG - Handling RPC result for message 7625625784196927156
+2026-04-06 12:42:39,744 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:39,744 - DEBUG - Assigned msg_id = 7625625784605446904 to GetHistoryRequest (7fc1a0e8b5e0)
+2026-04-06 12:42:39,744 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2026-04-06 12:42:39,744 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,744 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,744 - DEBUG - Assigned msg_id = 7625625784606541720 to MsgsAck (7fc1a0e8b0d0)
+2026-04-06 12:42:39,744 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:39,744 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,744 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,919 - DEBUG - Handling RPC result for message 7625625784605446904
+2026-04-06 12:42:39,926 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:39,928 - DEBUG - Assigned msg_id = 7625625785342403500 to GetHistoryRequest (7fc1a0e8b5e0)
+2026-04-06 12:42:39,928 - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2026-04-06 12:42:39,928 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,928 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:39,928 - DEBUG - Assigned msg_id = 7625625785343491640 to MsgsAck (7fc1a0f24af0)
+2026-04-06 12:42:39,928 - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2026-04-06 12:42:39,929 - DEBUG - Encrypted messages put in a queue to be sent
+2026-04-06 12:42:39,929 - DEBUG - Waiting for messages to send...
+2026-04-06 12:42:40,094 - DEBUG - Handling RPC result for message 7625625785342403500
+2026-04-06 12:42:40,098 - DEBUG - Receiving items from the network...
+2026-04-06 12:42:40,099 - INFO - [@vaddress] Found 3 mtproto configs in message 8905
+2026-04-06 12:42:40,099 - INFO - [@vaddress] Found 2 vless configs in message 8899
+2026-04-06 12:42:40,099 - INFO - [@vaddress] Found 2 shadowsocks configs in message 8899
+2026-04-06 12:42:40,099 - INFO - [@vaddress] Found 3 vmess configs in message 8898
+2026-04-06 12:42:40,099 - INFO - [@vaddress] Found 3 shadowsocks configs in message 8898
+2026-04-06 12:42:40,100 - INFO - [@vaddress] Found 11 mtproto configs in message 8897
+2026-04-06 12:42:40,100 - INFO - [@vaddress] ✔️ Processed 150 messages → Found 24 configs + 0 proxies
+2026-04-06 12:42:40,100 - INFO - Found 166 unique vless configs
+2026-04-06 12:42:40,100 - INFO - Found 6 unique vmess configs
+2026-04-06 12:42:40,100 - INFO - Found 179 unique shadowsocks configs
+2026-04-06 12:42:40,100 - INFO - Found 3 unique trojan configs
+2026-04-06 12:42:40,100 - INFO - Found 6 unique socks configs
+2026-04-06 12:42:40,100 - INFO - Found 0 unique http configs
+2026-04-06 12:42:40,100 - INFO - Found 133 unique mtproto configs
+2026-04-06 12:42:40,100 - INFO - Saving configs to Config/vless.txt
+2026-04-06 12:42:40,100 - INFO - Saved 166 vless configs to Config/vless.txt
+2026-04-06 12:42:40,101 - INFO - Saving configs to Config/vmess.txt
+2026-04-06 12:42:40,101 - INFO - Saved 6 vmess configs to Config/vmess.txt
+2026-04-06 12:42:40,101 - INFO - Saving configs to Config/shadowsocks.txt
+2026-04-06 12:42:40,101 - INFO - Saved 179 shadowsocks configs to Config/shadowsocks.txt
+2026-04-06 12:42:40,101 - INFO - Saving configs to Config/trojan.txt
+2026-04-06 12:42:40,101 - INFO - Saved 3 trojan configs to Config/trojan.txt
+2026-04-06 12:42:40,101 - INFO - Saving configs to Config/socks.txt
+2026-04-06 12:42:40,101 - INFO - Saved 6 socks configs to Config/socks.txt
+2026-04-06 12:42:40,101 - INFO - Saving configs to Config/http.txt
+2026-04-06 12:42:40,101 - INFO - No http configs found, wrote placeholder to Config/http.txt
+2026-04-06 12:42:40,102 - INFO - Saving configs to Config/mtproto.txt
+2026-04-06 12:42:40,102 - INFO - Saved 133 mtproto configs to Config/mtproto.txt
+2026-04-06 12:42:40,102 - INFO - Saving proxies to Config/proxies.txt
+2026-04-06 12:42:40,102 - INFO - Saved 93 proxies to Config/proxies.txt
+2026-04-06 12:42:40,102 - INFO - Saving invalid channels to Logs/invalid_channels.txt
+2026-04-06 12:42:40,102 - INFO - No invalid channels found, wrote placeholder to Logs/invalid_channels.txt
+2026-04-06 12:42:40,102 - INFO - Saving channel stats to Logs/channel_stats.json
+2026-04-06 12:42:40,102 - INFO - Saved channel stats to Logs/channel_stats.json
+2026-04-06 12:42:40,106 - INFO - Saved 615 marketplace configs to Config/marketplace_data.json
+2026-04-06 12:42:40,106 - INFO - Updated telegram_channels.json with 3 channels
+2026-04-06 12:42:40,106 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2026-04-06 12:42:40,106 - DEBUG - Closing current connection...
+2026-04-06 12:42:40,107 - DEBUG - Cancelling 0 pending message(s)...
+2026-04-06 12:42:40,107 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2026-04-06 12:42:40,107 - INFO - Config+proxy collection process completed
